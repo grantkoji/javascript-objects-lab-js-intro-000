@@ -10,7 +10,7 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
 }
 
 function deleteFromObjectByKey(object, key) {
-  var objectreplace = object;
+  var objectreplace = `${object}`;
   delete objectreplace[`${key}`];
   return objectreplace
 }
